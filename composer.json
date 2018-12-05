@@ -1,0 +1,21 @@
+{
+    "name": "nik/wordpress-composer",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url" : "https://wpackagist.org"
+        }
+    ],
+    "config"      : {
+        "vendor-dir": "wp-content/vendor"
+    },
+    "require"     : {
+        "johnpbloch/wordpress"            : ">=4.9"
+    },
+    "require-dev" : {
+    },
+    "extra"       : {
+        "wordpress-install-dir": "wp"
+    }
+}
