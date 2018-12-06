@@ -83,6 +83,21 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+// Define site URL
+define('SITE_URL', 'http://' . $_SERVER['HTTP_HOST']);
+
+// Define custom wp-content dir
+define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
+// Define custom wp-content URL
+define('WP_CONTENT_URL', SITE_URL . '/wp-content');
+
+// Define Plugin DIR
+define('WP_PLUGIN_DIR', dirname(__FILE__) . '/wp-content/plugins');
+// Define Plugin URL
+define('WP_PLUGIN_URL', SITE_URL . '/wp-content/plugins');
+// Define this constant to solve possible compatability issues
+define('PLUGINDIR', WP_PLUGIN_URL);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
