@@ -1,28 +1,27 @@
 {
-    "name": "nik/wordpress-composer",
-    "type": "project",
-    "repositories": [
-        {
-            "type": "composer",
-            "url" : "https://wpackagist.org"
-        }
-    ],
-    "config"      : {
-        "vendor-dir": "wp-content/vendor"
-    },
-    "require"     : {
-        "johnpbloch/wordpress"            : ">=4.9",
-        "wpackagist-theme/philips" : "*",
-        "wpackagist-plugin/all-in-one-seo-pack" : "*"
-    },
-    "require-dev" : {
-    },
-    "extra"       : {
-        "wordpress-install-dir": "wp"
-    },
-    "autoload": {
-      "psr-0": {
-        "Acme": "src/"
-      }
+  "name": "nik/wordpress-composer",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
     }
+  ],
+  "config": {
+    "vendor-dir": "wp-content/vendor"
+  },
+  "require": {
+    "johnpbloch/wordpress": ">=4.9",
+    "wpackagist-theme/philips": "*",
+    "wpackagist-plugin/all-in-one-seo-pack": "*"
+  },
+  "require-dev": {},
+  "extra": {
+    "wordpress-install-dir": "wp"
+  },
+  "autoload": {
+    "psr-0": {
+      "Acme": "src/"
+    }
+  }
 }
