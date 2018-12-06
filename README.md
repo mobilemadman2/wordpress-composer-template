@@ -1,6 +1,6 @@
 # Wordpress Composer Template
 
-Use this template for your next Wordpress project.
+Use this template for your next Wordpress project. It will help you to install themes and plugins via *composer* from https://wpackagist.org/ .
 
 ## Installation
 
@@ -59,15 +59,23 @@ This constants make Wordpress to use different folders for wp-content, plugins a
 
 * Visit your site: http://127.0.0.1:8000 . Happy coding!
 
+## Describe directory structure
+
+- `wp/` - folder for Wordpress Core
+- `wp-content/plugins` - folder for plugins
+- `wp-content/themes` - folder for themes
+- `wp-content/uploads` - folder for user uploads (we need to backup it regurally to have a chance to restore our site's files)
+- `wp-content/vendor` - folder for installed composer packages
+
 ## Commands
 
-* Install plugin
+* Install plugin from wpackagist.org
 
 ```
 composer require wpackagist-plugin/all-in-one-seo-pack
 ```
 
-* Install theme
+* Install theme from wpackagist.org
 
 ```
 composer require wpackagist-theme/philips
