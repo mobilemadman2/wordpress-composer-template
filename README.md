@@ -58,3 +58,22 @@ define('PLUGINDIR', WP_PLUGIN_URL);
 This constants make Wordpress to use different folders for wp-content, plugins and themes.
 
 * Visit your site: http://127.0.0.1:8000 . Happy coding!
+
+## Commands
+
+* Install plugin
+
+```
+composer require wpackagist-plugin/all-in-one-seo-pack
+```
+
+* Install theme
+
+```
+composer require wpackagist-theme/philips
+```
+
+## Useful links
+
+- https://composer.rarst.net/
+- https://github.com/wodby/wordpress-composer
