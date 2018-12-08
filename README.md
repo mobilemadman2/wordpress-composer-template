@@ -7,7 +7,7 @@ Use this template for your next Wordpress project. It will help you to install t
 * Clone this repo:
 
 ```
-git clone ...
+git clone git@github.com:yesnik/wordpress-composer-template.git
 ```
 
 * Install dependencies:
